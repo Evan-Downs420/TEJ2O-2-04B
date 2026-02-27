@@ -9,7 +9,7 @@ basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
 input.onButtonPressed(Button.A, function () {
-    let temperature = input.temperature()
+    const temperature = input.temperature()
     basic.clearScreen()
     basic.showString("The temperature is:" + (temperature) + "C.")
 })
